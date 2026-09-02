@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch backend/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PdroOlive/E-Commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PdroOlive/E-Commerce/issues"
+  },
+  "homepage": "https://github.com/PdroOlive/E-Commerce#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "tsx": "^4.23.13"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "prisma": "^7.10.0"
+  }
+}
